@@ -22,7 +22,7 @@ const users = [
   { name: 'Lux', active: false },
 ];
 
-const toggleUserState = (allUsers, userName, callback() => {
+const toggleUserState = (allUsers, userName, callback()) => {
 
     // const promise = New Promise (resolve, reject){
     //     if()
@@ -41,6 +41,8 @@ const logger = updatedUsers => console.table(updatedUsers);
  */
 toggleUserState(users, 'Mango', logger);
 toggleUserState(users, 'Lux', logger);
+
+console.log(toggleUserState)
 
 /*
  * Должно работать так
